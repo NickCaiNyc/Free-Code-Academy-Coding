@@ -1,0 +1,170 @@
+*{
+    font-family:arial;
+  }
+  body{
+    margin:0;
+    background-color:#eee;
+  }
+  #header{
+    position:fixed;
+    background-color:#eee;
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+  }
+  #header img{
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    height:30px;
+    width:300px;
+  }
+  ul {
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+    margin:10px;
+  }
+  a{
+    text-decoration: none;
+    margin:5px;
+    color:black;
+  }
+  
+  ol{
+    list-style:none;
+    margin-left:-30px;
+  }
+  #hero{
+  
+    text-align:center;
+    padding-top:100px;
+    padding-bottom:100px;
+  }
+  
+  #hero input{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+  }
+  .info{
+    height:110px;
+    padding-bottom:20px;
+  }
+  .fa{
+    color:orange;
+    margin:auto;
+    padding-top:20px;
+    float:left;
+    display:inline-block;
+  }
+  .desc{
+    margin-left:20%;
+    
+  }
+  #features{
+    margin-left:100px;
+    margin-right:100px;
+    padding-bottom:100px;
+  }
+  iframe{
+    width:700px;
+    height:500px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding-top:100px;
+    padding-bottom:100px;
+    border:transparent;
+  }
+  #pricing{
+    display:flex;
+    text-align:center;
+    margin:0;
+    padding-top:100px;
+    padding-bottom:100px;
+  }
+  .box{
+    width:33%;
+    margin:5px;
+    border:solid 1px;
+    padding-bottom:5px;
+  }
+  .head{
+    background-color:lightgray;
+    padding:5px;
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  .btn{
+    background-color:#f1c40f;
+    border:#f1c40f;
+    padding:10px;
+    cursor: pointer;
+  }
+  footer{
+    background-color:lightgray;
+  }
+  footer ul{
+    padding-top:5px;
+    display:flex;
+    justify-content:flex-end;
+  }
+  span{
+    display:block;
+    text-align:right;
+    padding-bottom:5px;
+  }
+  
+  @media only screen and (max-width: 450px){
+    *{
+      text-align:center;
+    }
+    #header{
+      display:block;
+      justify-content: center;
+      margin:0;
+      padding:0;
+    }
+    #header img{
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .fa{
+      display:none;
+      
+    }
+    ul {
+    margin-left:-30px;
+    display:block;
+    justify-content: space-between;
+    
+    }
+    .info{
+      margin-left:-30px;
+      padding-bottom:120px;
+      
+    }
+    #pricing{
+    display:block;
+    text-align:center;
+    margin:auto;
+    padding-top:100px;
+    padding-bottom:100px;
+    }
+    iframe{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
+    }
+    .box{
+      padding-left:10%;
+      padding-right:10%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+  }

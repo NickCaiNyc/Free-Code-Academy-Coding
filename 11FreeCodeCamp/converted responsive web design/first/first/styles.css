@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    margin: 0;
+    color: #f5f6f7;
+    font-family: Verdana;
+      font-size: 16px;
+    background-image: url("https://images.unsplash.com/photo-1550025899-5f8a06b1b3a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dmVydGljYWwlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60")
+  }
+  
+  form {
+    background-color: rgba(129,0,35,.4);
+    width: 60vw;
+      max-width: 600px;
+      min-width: 300px;
+      margin: 0 auto;
+    padding: 2em;
+  }
+  
+  label {
+    display: block;
+      margin: 0.5rem 0;
+  }
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    
+  }
+  
+  input,
+  select {
+    height: 35px; 
+    margin: 10px 0 0 0;
+      width: 100%;
+    min-height: 2em;
+    border-radius: 5px;
+  }
+  input[type="textarea"]{
+    weight:100%;
+  }
+  input[type="submit"]{
+    margin-top:75px;
+    background:lightgreen;
+    height:50px;
+  }

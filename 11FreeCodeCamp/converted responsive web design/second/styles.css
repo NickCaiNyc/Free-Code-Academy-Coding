@@ -1,0 +1,60 @@
+.border{
+    background-color:lightgrey;
+  }
+  .name{
+    padding-top:40px;
+  }
+  #title{
+    text-align:center;
+  }
+  p{
+    font-family:arial;
+    font-size:10px;
+  }
+  .pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    max-width:700px;
+    min-width:500px;
+  }
+  #image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    max-width:100%;
+    height: auto;
+    text-align:center;
+  }
+  h1, h2{
+    text-align: center;
+    font-family:sans-serif;
+  }
+  h2{
+    font-size:17px;
+  }
+  li{
+    font-size:15px;
+    font-family:sans-serif;
+    padding-top:10px;
+    width:80%;
+  }
+  #tribute-info{
+    padding-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+  }
+  .quote{
+    padding-top:10px;
+    font-style:italic;
+  }
+  
+  img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+      margin: 0 auto;
+  }
